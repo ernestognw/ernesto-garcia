@@ -1,7 +1,7 @@
 $(function () {
 	var $content = $('#jsonContent');
 	var data = {
-	rss_url: 'https://medium.com/feed/@ernestogarcian'
+	rss_url: 'https://medium.com/feed/@ernestognw'
 	};
 	$.get('https://api.rss2json.com/v1/api.json', data, function (response) {
 		console.log(response);
